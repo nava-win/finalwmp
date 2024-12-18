@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Application Theme -->
+    <style name="Theme.WMPFinal" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColorDark</item>
+        <item name="colorOnPrimary">@color/backgroundColor</item>
+        <item name="colorSecondary">@color/accentColor</item>
+        <item name="colorSecondaryVariant">@color/primaryColorLight</item>
+        <item name="colorOnSecondary">@color/textColorPrimary</item>
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="actionBarStyle">@style/MossyActionBar</item>
+    </style>
+    <style name="MossyActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/primaryColor</item>
+        <item name="android:titleTextStyle">@style/MossyActionBarTitle</item>
+    </style>
+    <style name="MossyActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/backgroundColor</item>
+    </style>
+</resources>
